@@ -1,0 +1,63 @@
+#comments {
+	color: #666;
+	font: 14px/21px '微软雅黑','黑体',sans-serif;
+	background: #FFF;
+	margin: 20px 0;
+	padding: 30px;
+}
+#comments li {
+	margin: 10px 0px;
+}
+#comments ol {
+	margin: 40px 0;
+}
+#comments img {
+	border-radius: 100%;
+	float: left;
+}
+
+#comments cite , #comments time {
+	padding-left: 10px;
+}
+
+#comments a {
+	color: #1373be;
+	font: 17px/25px '微软雅黑','黑体',sans-serif;
+}
+
+
+#comments li:last-of-type {
+	clear:left;
+	border: 1px solid rgba(0,0,0,0.05);
+	padding: 20px;
+}
+
+#respond {
+	background: #FFF;
+	padding: 30px 30px 0 30px;
+	margin: 20px 0;
+}
+
+#respond h3 {
+	margin-bottom: 20px; 
+	font: 20px/normal '微软雅黑','黑体',sans-serif;
+}
+
+#respond input {
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	background: #FAFAFA;
+	color:#666;
+	border: 1px solid #ccc;
+	font: 17px/normal '微软雅黑','黑体',sans-serif;
+}
+#respond textarea {
+	padding: 10px 15px;
+	width: 100%;
+	box-sizing:border-box;
+}
+#respond input[type=submit] {
+	margin-top: 10px;
+	background: #3F3F3F;
+	color: #FFF;
+}
